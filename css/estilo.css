@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 /* começo do header */
@@ -15,11 +16,12 @@ header {
     align-items: center;
     justify-content: center;
     padding: 17px 10%;
+    transition: 0.6s;
 }
 
 header:hover {
     background-color: rgb(17,17,23);
-    transition: 0.6s;
+    transform: scale(1.2);
 }
 
 .nav {
@@ -52,6 +54,31 @@ div.h2 {
 }
 
 /*final do header*/
+
+/*Começo do footer */
+
+footer {
+    background-color: rgb(15, 15, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    transition: 0.3s;
+    margin-top: 34vh;
+}
+
+footer:hover {
+    background-color: rgb(17,17,23);
+}
+
+.sp {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
+
+/*final do footer */
 
 /*começo do conteúdo*/
 
