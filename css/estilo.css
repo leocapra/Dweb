@@ -40,6 +40,7 @@ header:hover {
 .nav li {
     display: inline-block;
     padding: 0px 20px;
+    overflow-y: hidden;
 }
 
 .nav li a:hover {
@@ -76,6 +77,12 @@ footer:hover {
     display: flex;
     text-align: center;
     font-size: 120%;
+    margin-bottom: 3%;
+    transition: all 0.6s;
+}
+
+.sp:hover {
+    transform: scale(1.2);
 }
 
 .sp a {
@@ -83,6 +90,7 @@ footer:hover {
     color: white;
 }
 .icon {
+    margin-top: 6px;
     width: 5%;
     margin-right: 5px;
 }
@@ -106,7 +114,7 @@ p {
     margin: 5%;
     font-size: 130%;
     text-align: justify;
-    text-indent: 5px;
+    text-indent: 15px;
     color: white;
 }
 
