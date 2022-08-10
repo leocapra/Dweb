@@ -73,9 +73,14 @@ footer:hover {
 
 .sp {
     color: white;
-    text-decoration: none;
     display: flex;
     text-align: center;
+    font-size: 120%;
+}
+
+.sp a {
+    text-decoration: none;
+    color: white;
 }
 
 /*final do footer */
