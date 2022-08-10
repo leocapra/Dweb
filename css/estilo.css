@@ -82,7 +82,10 @@ footer:hover {
     text-decoration: none;
     color: white;
 }
-
+.icon {
+    width: 5%;
+    margin-right: 5px;
+}
 /*final do footer */
 
 /*começo do conteúdo*/
