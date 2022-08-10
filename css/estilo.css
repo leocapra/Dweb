@@ -22,6 +22,8 @@ header {
 header:hover {
     background-color: rgb(17,17,23);
     transform: scale(1.2);
+    box-shadow: 0 0 50px rgba(59, 10, 114, 0.3);
+
 }
 
 .nav {
@@ -123,5 +125,12 @@ h1 {
     font-size: 200%;
     text-align: justify;
     text-indent: 5px;
+    color: white;
+}
+
+.lista {
+    margin: 5%;
+    font-size: 130%;
+    text-align: center;
     color: white;
 }
