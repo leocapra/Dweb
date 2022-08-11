@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div.black {
+    color: black;
+}
+
+div.white {
+    color: white;
+}
+
+div.blue {
+    color: blue;
+}
+
+div.blueviolet {
+    color: blueviolet
+}
+
+div.lightblue {
+    color: lightskyblue;
+}
+
+div.green {
+    color:green
+}
