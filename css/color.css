@@ -1,25 +1,29 @@
 @charset "UTF-8";
 
-div.black {
+span.black {
     color: black;
 }
 
-div.white {
+span.white {
     color: white;
 }
 
-div.blue {
-    color: blue;
+span.blue {
+    color: rgb(63, 87, 194);
 }
 
-div.blueviolet {
+span.blueviolet {
     color: blueviolet
 }
 
-div.lightblue {
-    color: lightskyblue;
+span.lightblue {
+    color: rgb(80, 188, 255);
 }
 
-div.green {
+span.pink {
+    color: rgb(185, 64, 189);
+}
+
+span.green {
     color:green
 }

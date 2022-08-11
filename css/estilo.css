@@ -128,9 +128,17 @@ h1 {
     color: white;
 }
 
-.lista {
-    margin: 5%;
+#lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0px 5% 20%;
     font-size: 130%;
     text-align: center;
     color: white;
+    background-color: rgb(8, 8, 29);
+    width: 60%;
+    border-radius: 20px;
+    border-color: rgb(201, 201, 201);
+    padding: 1%;
 }
