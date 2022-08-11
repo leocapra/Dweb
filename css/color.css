@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+span.space {
+    margin-left: 50px;
+}
+
 span.black {
     color: black;
 }
@@ -25,5 +29,5 @@ span.pink {
 }
 
 span.green {
-    color:green
+    color:rgb(78, 153, 78)
 }
