@@ -156,3 +156,21 @@ h1 {
     border-color: rgb(201, 201, 201);
     padding: 1%;
 }
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0px 5% 20%;
+    font-size: 120%;
+    color: white;
+    width: 60%;
+    padding: 1%;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    color: rgb(226, 163, 255);
+}
