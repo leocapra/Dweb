@@ -14,7 +14,9 @@
 
     <header>
         <div class="h">
-            <div class="h2"><h1>Dweb</h1></div>
+            <div class="h2">
+                <h1>Dweb</h1>
+            </div>
             <ul class="nav">
                 <li><a href="index.html"><span>home</span></a></li>
                 <li><a href="html.html"><span>html</span></a></li>
@@ -29,98 +31,121 @@
         <p>Esta área tem anotações sobre algumas informações didáticas sobre o HTML 5!</p>
 
         <h1>Primeiros passos:</h1>
-        <p>De maneira resumida, o html em sí só, é onde fica todas as informações e conteúdo do site. E de modo mais detalhado, o <strong>HyperText Markup Language</strong> (HTML) é uma tecnologia de desenvolvimento web, tem como a principal caracteristica o uso de suas marcas ou as chamadas tags para adicionar um objetivo ou função de cada recurso de um site, desde títulos até o comportamento relacionados à outras tecnolgias como CSS e Scripts com o JavaScript por exemplo.</p>
+        <p>De maneira resumida, o html em sí só, é onde fica todas as informações e conteúdo do site. E de modo mais
+            detalhado, o <strong>HyperText Markup Language</strong> (HTML) é uma tecnologia de desenvolvimento web, tem
+            como a principal caracteristica o uso de suas marcas ou as chamadas tags para adicionar um objetivo ou
+            função de cada recurso de um site, desde títulos até o comportamento relacionados à outras tecnolgias como
+            CSS e Scripts com o JavaScript por exemplo.</p>
 
         <h1>Marcas / Tags</h1>
-        <p>As marcas é o fundamento do html, sem as marcas o html não funciona, a tecnologia com o nome HyperText Markup Language tem em seu próprio nome a citação de uso de marcas, mas indo ao que interessa, as marcas são textos para definir uma identidade a um conteúdo do site, é como se falassemos para a tecnologia "-Olha, essa parte é isso, então se comporte como tal" e como nós que mandamos se der a ordem de maneira certa e bem detalhada ele vai conseguir seguir a ordem de maneira mais precisa. Lista com exemplos de marcas:</p>
+        <p>As marcas é o fundamento do html, sem as marcas o html não funciona, a tecnologia com o nome HyperText Markup
+            Language tem em seu próprio nome a citação de uso de marcas, mas indo ao que interessa, as marcas são textos
+            para definir uma identidade a um conteúdo do site, é como se falassemos para a tecnologia "-Olha, essa parte
+            é isso, então se comporte como tal" e como nós que mandamos se der a ordem de maneira certa e bem detalhada
+            ele vai conseguir seguir a ordem de maneira mais precisa. Lista com exemplos de marcas:</p>
 
         <h1>Lista de Marcas:</h1>
         <div class="lista">
-        <ul>
-            <li><span><strong>
-                <span class="blue">&lt;</span>
-                <span class="pink">!DOCTYPE html</span>
-                <span class="blue">&gt;</span>
-            </strong> 
-            == Cria o arquivo em .html</li>
+            <ul>
+                <li><span><strong>
+                            <span class="blue">&lt;</span>
+                            <span class="pink">!DOCTYPE html</span>
+                            <span class="blue">&gt;</span>
+                        </strong>
+                        == Cria o arquivo em .html</li>
 
-            Lista incompleta, em desenvolvimento..
-        </ul>
+                Lista incompleta, em desenvolvimento..
+            </ul>
         </div>
 
-        <p>A funcionalidade do "<span class="blue">&lt;</span>" e do "<span class="blue">&gt;</span>" (Sinal de maior que.. e menor que..) é separar as marcas dos outros conteúdos, as marcas ou qual quer coisa entre esses sinais não irão ser considerados como conteúdo visivel do seu web site, o conteúdo que está em <span class="pink">rosa</span> é um comando da marca, acima tem uma lista de comandos básicos e suas funções dentro do html.</p>
+        <p>A funcionalidade do "<span class="blue">&lt;</span>" e do "<span class="blue">&gt;</span>" (Sinal de maior
+            que.. e menor que..) é separar as marcas dos outros conteúdos, as marcas ou qual quer coisa entre esses
+            sinais não irão ser considerados como conteúdo visivel do seu web site, o conteúdo que está em <span
+                class="pink">rosa</span> é um comando da marca, acima tem uma lista de comandos básicos e suas funções
+            dentro do html.</p>
 
-        <p>A maioria das tags (marcas) em html vai ter um fechamento, apenas repetindo a tag que você abriu com uma barra no inicio. Por Exemplo:</p>
+        <p>A maioria das tags (marcas) em html vai ter um fechamento, apenas repetindo a tag que você abriu com uma
+            barra no inicio. Por Exemplo:</p>
 
         <div class="exemplo">
             <ul>
                 <li>
                     <span class="blue">&lt;</span>
                     <span class="pink">example</span>
-                    <span class="blue">&gt;</span> 
+                    <span class="blue">&gt;</span>
                     <span class="blue">&lt;</span>
                     <span class="pink">/example</span>
-                    <span class="blue">&gt;</span> 
+                    <span class="blue">&gt;</span>
                 </li>
             </ul>
-            </div>
+        </div>
 
-            <p>Mas algumas outras tags não tem fechamento, então colocamos a barra no final da primeira tag, ou deixamos do jeito que ele está mesmo</p>
+        <p>Mas algumas outras tags não tem fechamento, então colocamos a barra no final da primeira tag, ou deixamos do
+            jeito que ele está mesmo</p>
 
-            <div class="exemplo">
-                <ul>
-                    <li>
-                        <span class="blue">&lt;</span>
-                        <span class="pink">example/</span>
-                        <span class="blue">&gt;</span> <br><br>
-                        ou mais facil: <br><br>
-                        <span class="blue">&lt;</span>
-                        <span class="pink">example<span>
-                        <span class="blue">&gt;</span> 
-                    </li>
-                </ul>
-                </div>
+        <div class="exemplo">
+            <ul>
+                <li>
+                    <span class="blue">&lt;</span>
+                    <span class="pink">example/</span>
+                    <span class="blue">&gt;</span> <br><br>
+                    ou mais facil: <br><br>
+                    <span class="blue">&lt;</span>
+                    <span class="pink">example<span>
+                            <span class="blue">&gt;</span>
+                </li>
+            </ul>
+        </div>
 
 
         <h1>Simbulos</h1>
 
-        <p>Alguns simbulos não funcionam no documento html, se acaso estiver "bugado" seu texto no parágrafo como acentuações e caractéres da escrita brasileira, adicionamos dentro do <span class="pink">head</span> um <span class="pink">meta charset="UTF-8"</span> desta maneira: </p>
+        <p>Alguns simbulos não funcionam no documento html, se acaso estiver "bugado" seu texto no parágrafo como
+            acentuações e caractéres da escrita brasileira, adicionamos dentro do <span class="pink">head</span> um
+            <span class="pink">meta charset="UTF-8"</span> desta maneira:
+        </p>
 
         <div class="exemplo">
             <ul>
                 <li>
                     <span class="blue">&lt;</span>
                     <span class="pink">head</span>
-                    <span class="blue">&gt;</span> 
+                    <span class="blue">&gt;</span>
                     <br>
                     <span class="space">
-                    <span class="blue">&lt;</span>
-                    <span class="pink">meta</span> <span class="green">charset="UTF-8"</span>
-                    <span class="blue">&gt;</span> 
+                        <span class="blue">&lt;</span>
+                        <span class="pink">meta</span> <span class="green">charset="UTF-8"</span>
+                        <span class="blue">&gt;</span>
                     </span>
                     <br>
                     <span class="blue">&lt;</span>
                     <span class="pink">/head</span>
-                    <span class="blue">&gt;</span> 
-                
+                    <span class="blue">&gt;</span>
+
                 </li>
             </ul>
-            </div>
+        </div>
 
-            <p>Com esse problema resolvido, ainda não sabemos como podemos por "<span class="blue">&lt;</span>" ou "<span class="blue">&gt;</span>" para mostrar o conteúdo na tela ao invés de criar tag, siga a lista abaixo para você saber o que cada termo com o "e" comercial é capaz de fazer no html</p>
+        <p>Com esse problema resolvido, ainda não sabemos como podemos por "<span class="blue">&lt;</span>" ou "<span
+                class="blue">&gt;</span>" para mostrar o conteúdo na tela ao invés de criar tag, siga a lista abaixo
+            para você saber o que cada termo com o "e" comercial é capaz de fazer no html</p>
 
-            <p><a href="http://fap.if.usp.br/~vvuolo/A%20-%20HOME%20-%20Fisica/simbolos.htm" target="_blank">Consulte este site da usp, clicando sobre esta mensagem.</a></p>
+        <p><a href="http://fap.if.usp.br/~vvuolo/A%20-%20HOME%20-%20Fisica/simbolos.htm" target="_blank">Consulte este
+                site da usp, clicando sobre esta mensagem.</a></p>
 
-    
+
     </section>
 
     <footer>
         <div id="footer">
-            <span class="sp"> <a href="https://github.com/leocapra" ><img class="icon" src="imagens/github-icon.png" alt="icone git hub">Github: &nbsp; @leocapra</a></span>
+            <span class="sp"> <a href="https://github.com/leocapra"><img class="icon" src="imagens/github-icon.png"
+                        alt="icone git hub">Github: &nbsp; @leocapra</a></span>
             <br>
-            <span class="sp"> <a href="https://discord.com/" target="_blank"><img class="icon" src="imagens/discord-icon.png" alt="icone discord">Discord: ! L E O &lt;/&gt;#3517</a></span>
+            <span class="sp"> <a href="https://discord.com/" target="_blank"><img class="icon"
+                        src="imagens/discord-icon.png" alt="icone discord">Discord: ! L E O &lt;/&gt;#3517</a></span>
             <br>
-            <span class="sp"> <a href="https://www.pinterest.com/leopscc/" target="_blank"><img class="icon" src="imagens/pinterest-icon.png" alt="icone pinterest">Pinterest:  &nbsp;@leopscc</a></span>
+            <span class="sp"> <a href="https://www.pinterest.com/leopscc/" target="_blank"><img class="icon"
+                        src="imagens/pinterest-icon.png" alt="icone pinterest">Pinterest: &nbsp;@leopscc</a></span>
         </div>
     </footer>
 
