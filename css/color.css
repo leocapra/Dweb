@@ -31,3 +31,7 @@ span.pink {
 span.green {
     color:rgb(78, 153, 78)
 }
+
+span.transparente {
+    color: rgba(116, 116, 116, 0.3);
+}
