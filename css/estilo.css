@@ -198,3 +198,10 @@ a {
     justify-content: center;
     flex-direction: column;
 }
+
+div.botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
