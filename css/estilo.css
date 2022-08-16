@@ -21,7 +21,7 @@ header {
 }
 
 header:hover {
-    background-color: rgb(17,17,23);
+    background-color: rgb(17, 17, 23);
     transform: scale(1.1);
     box-shadow: 0 0 50px rgba(59, 10, 114, 0.3);
 
@@ -52,7 +52,7 @@ header:hover {
 }
 
 div.h2 {
-    padding-left: 35%; 
+    padding-left: 35%;
     margin: 5px;
     color: white;
 }
@@ -72,7 +72,7 @@ footer {
 }
 
 footer:hover {
-    background-color: rgb(17,17,23);
+    background-color: rgb(17, 17, 23);
 }
 
 .sp {
@@ -98,6 +98,7 @@ footer:hover {
     width: 5%;
     margin-right: 5px;
 }
+
 /*final do footer */
 
 /*começo do conteúdo*/
@@ -106,7 +107,8 @@ body {
     background-color: rgb(21, 19, 29);
 }
 
-section { /*responsivar esta área*/
+section {
+    /*responsivar esta área*/
     position: relative;
     margin: auto;
     top: 20px;
@@ -150,10 +152,10 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 5% 0px 5% 20%;
-    font-size: 120%;
+    font-size: 105%;
     color: white;
     background-color: rgb(8, 8, 29);
-    width: 60%;
+    width: 75%;
     border-radius: 20px;
     border-color: rgb(201, 201, 201);
     padding: 1%;
@@ -178,12 +180,12 @@ h1 {
     background-color: rgb(45, 29, 59);
     padding: 5px;
     border-radius: 20px;
-    transition: all 0.6s ease-in;
+    transition: all 0.2s ease-in;
     color: white;
 }
 
 .conteudo a:hover {
-    transform: rotate(12deg);
+    transform: scale(1.1);
 }
 
 a {
@@ -215,7 +217,7 @@ div.botoes a {
     padding: 10px;
     border-radius: 50%;
     margin-top: 80px;
-    margin:30px;
+    margin: 30px;
 }
 
 div#Bvoltar a {
@@ -236,4 +238,8 @@ div#Bproximo a:hover {
     transform: rotate(20deg);
     background-color: rgb(30, 19, 39);
     color: rgb(255, 255, 255);
+}
+
+img.tutos {
+    width: 70%;
 }
