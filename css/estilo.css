@@ -229,6 +229,7 @@ div.botoes a {
 }
 
 div#Bvoltar a {
+    font-size: 80%;
     transition: all 0.3s;
 }
 
@@ -240,6 +241,7 @@ div#Bvoltar a:hover {
 
 div#Bproximo a {
     transition: all 0.3s;
+    font-size: 80%;
 }
 
 div#Bproximo a:hover {
