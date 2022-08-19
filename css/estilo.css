@@ -132,6 +132,14 @@ h1 {
     color: white;
 }
 
+h2 {
+    margin: 5%;
+    font-size: 150%;
+    text-align: justify;
+    text-indent: 5px;
+    color: white;
+}
+
 .lista {
     display: flex;
     justify-content: center;
