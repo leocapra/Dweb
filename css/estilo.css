@@ -17,7 +17,7 @@ header {
     justify-content: center;
     padding: 17px 10%;
     transition: 0.6s;
-    flex-direction: column;
+    flex-direction: row-reverse;
 }
 
 header:hover {
